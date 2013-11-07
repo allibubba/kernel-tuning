@@ -55,7 +55,7 @@ from: 131071 to 16777216
 ###min_free_kbytes
     /proc/sys/vm/min_free_kbytes
 
-about 5% fewer.
+    echo "65536" > /proc/sys/vm/min_free_kbytes
 
 
 ###overcommit_memory
